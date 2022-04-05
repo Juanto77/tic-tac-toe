@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+  justify-content: center;
+}
+
+.cell {
+  border: 1px solid black;
+  text-align: center;
+  justify-content: center;
+}
